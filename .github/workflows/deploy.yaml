@@ -13,6 +13,16 @@ jobs:
       
       - name: Make Payments
         run: echo "Make the payment of $50"
+        
+  Eat-Food:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Open Mouth
+        run: echo "Open Mouth"
+    
+      - name: Eat the Food
+        run: echo "Eat the Food"
 
+      
 
 
