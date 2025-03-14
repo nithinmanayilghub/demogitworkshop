@@ -1,10 +1,10 @@
-name: My First Action
+name: My Pizza Delivery
 on: push
 
 jobs:
-    first-job:
-        runs-on:ubuntu-latest
-        steps:
-          - name:Print Greeting
-            run: echo "Hello World"
+  Order-Online:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Open Mobile
+        run: echo "Opened Mobile"
 
