@@ -1,10 +1,18 @@
 name: My Pizza Delivery
-on: push
+on: [push,workflow_dispatch]
 
 jobs:
   Order-Online:
     runs-on: ubuntu-latest
     steps:
       - name: Open Mobile
-        run: echo "Opened Mobile"
+        run: echo "Opened"
+
+      - name: Explore Food
+        run: echo "I want to eat Pizza"
+      
+      - name: Explore Food
+        run: echo "Make the payment of $50"
+        
+
 
