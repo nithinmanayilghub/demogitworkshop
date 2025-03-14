@@ -13,9 +13,10 @@ jobs:
       
       - name: Make Payments
         run: echo "Make the payment of $50"
-        
+
   Eat-Food:
     runs-on: ubuntu-latest
+    needs: Order-Online
     steps:
       - name: Open Mouth
         run: echo "Open Mouth"
