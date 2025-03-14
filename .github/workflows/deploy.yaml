@@ -11,8 +11,8 @@ jobs:
       - name: Explore Food
         run: echo "I want to eat Pizza"
       
-      - name: Explore Food
+      - name: Make Payments
         run: echo "Make the payment of $50"
-        
+
 
 
